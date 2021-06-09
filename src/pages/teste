@@ -1,0 +1,42 @@
+
+<SafeAreaView style={styles.content}>
+          <ScrollView>
+            <View>
+                <View style={styles.header}>
+                    <View style={styles.foto}></View>
+                    <Text style={styles.entregarEm}>Entregar em</Text>
+                    <Text style={styles.endereco}>Rua Um, 02 - Sumaré</Text>
+                </View>
+                <View style={styles.menuBox}>
+                    <View style={styles.col1}>
+                        <View style={styles.categ}>
+                          <Icon name="glass-mug-variant" size={25} color="#90CA7D" style={styles.icon}/><Text style={styles.nameCateg}>Cervejas</Text>
+                        </View>
+                        <View style={styles.categ}>
+                          <Icon name="glass-wine" size={25} color="#90CA7D" style={styles.icon}/><Text style={styles.nameCateg}>Vinhos</Text>
+                        </View>
+                        <View style={styles.categ}>
+                          <Icon name="glass-cocktail" size={25} color="#90CA7D" style={styles.icon}/><Text style={styles.nameCateg}>Destilados</Text>
+                        </View>
+                    </View>
+                    <View style={styles.col2}>
+                        <View style={styles.categ2}>
+                          <Icon name="beer" size={25} color="#90CA7D" style={styles.icon}/><Text style={styles.nameCateg}>Sem álcool</Text>
+                        </View>
+                        <View style={styles.categ2}>
+                          <Icon name="peanut-outline" size={25} color="#90CA7D" style={styles.icon}/><Text style={styles.nameCateg}>Petiscos</Text>
+                        </View>
+                        <View style={styles.categ2}>
+                          <Icon name="delete-variant" size={25} color="#90CA7D" style={styles.icon}/><Text style={styles.nameCateg}>Outros</Text>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.slide}>
+                    <View style={styles.imagem}></View>
+                </View>
+                <View style={styles.boxBebidas}>
+                  <Text>Teste</Text>
+                </View>
+            </View>
+          </ScrollView>
+        </SafeAreaView> 
